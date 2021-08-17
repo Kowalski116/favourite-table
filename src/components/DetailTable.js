@@ -262,7 +262,7 @@ function DetailTable() {
                 pagination={false}
             />
 
-            <Button className='float-left mtb-16' danger onClick={() => dispatch(unsetName())}>Close</Button>
+            <Button className='float-right mtb-16' danger onClick={() => dispatch(unsetName())}>Close</Button>
         </div>
     )
 }
